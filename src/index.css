@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #030303;
+  line-height: 1.5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+  font-size: 62.5%;
+}
+body{
+}
+
+
+.heading-primary{
+  font-size: 6.6rem;
+  font-family: 'jaro';
+  font-weight: 800;
+  letter-spacing: 1rem;
+  text-align: center;
+  color: #332a0c;
+}
+nav{
+  background-color: #ffd43b;
+  
+}
+form{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f08c00;
+  padding-block: 2.4rem ;
+  font-size: 1.6rem;
+  gap: 1.2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  color: #301c00;
+}
+
+form input, select, .btn{
+  padding-block: .8rem;
+  outline: none;
+  border: none;
+  border-radius: 1.2rem;
+}
+form input{
+  padding-inline: 3.6rem;
+  background-color: #fff3bf;
+  font-family: 'montserrat';
+  font-weight:600;
+  color: #030303;
+  
+}
+form input::placeholder,form select{
+  color: #030303;
+  font-weight: 600;
+  font-family: 'Montserrat';
+}
+form select{
+  padding-inline: 1.2rem;
+  background-color: #fff3bf;
+}
+
+.btn{
+  padding-inline: 1.8rem;
+  font-weight: 600;
+  background-color: #63e6be;
+  color: #142e26;
+
+
+}
+
+.section-items{
+  background-color: #38271c;
+  padding: 9.6rem 3.4rem 3.2rem 3.4rem;
+  height: 57rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.package-list{
+  display: flex;
+  list-style: none;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8.8rem;
+}
+
+.list-item label{
+  display: flex;
+  font-size: 2.2rem;
+  align-items: center;
+  justify-content: center;
+  gap: .8rem;
+}
+label p{
+  color: #afa9a4;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+label button{
+  font-size: 1.8rem;
+  background: transparent;
+  border: none;
+}
+
+.checkbox{
+  width: 2.2rem;
+  height: 3rem;
+}
+
+.sorting-items{
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 1.8rem;
+  align-items: center;
+}
+.sorting-items select{
+  padding-inline: 2.2rem;
+  padding-block: .8rem;
+  text-transform: uppercase;
+  background: #fff3bf;
+  color: #4c4939;
+  font-weight: 500;
+  
+}
+
+.sorting-items button{
+  padding-inline: 1.4rem ;
+  padding-block: .8rem;
+  border-radius: 1.8rem;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: #fff3bf;
+  color: #4c4939;
+
+}
+
+
+footer{
+  text-align: center;
+  padding-block: 2.4rem  ;
+  background-color: #63e6be;
+}
+footer p{
+  font-size: 1.8rem;
+  color:#142e26;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.container{
+  max-width: 98rem;
+  margin: 0 auto;
+}
+
+.container-x{
+  max-width: 25rem;
+  margin: 0 auto;
+}
+
+.strike{
+  text-decoration: line-through;
+}
