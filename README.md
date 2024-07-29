@@ -27,18 +27,18 @@ Make sure you have the following installed on your system:
 
 1. Clone the repository:
 
-   ```sh
+   ```
    git clone https://github.com/your-username/travel-list-app.git
    ```
 
 2. Navigate to the project directory:
 
-   ```sh
+   ```
    cd travel-list-app
    ```
 
 3. Install the dependencies:
-   ```sh
+   ```
    npm install
    ```
 
@@ -46,7 +46,7 @@ Make sure you have the following installed on your system:
 
 Start the application with the following command:
 
-````sh
+````
 npm start
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -60,21 +60,20 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 - **Delete Items**: Remove items by clicking the trash icon next to each item.
 
 ## Contributing
-
 We welcome contributions! Please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch:
-    ```sh
+    ```
     git checkout -b feature/your-feature-name
     ```
 3. Make your changes.
 4. Commit your changes:
-    ```sh
+    ```
     git commit -m 'Add some feature'
     ```
 5. Push to the branch:
-    ```sh
+    ```
     git push origin feature/your-feature-name
     ```
 6. Open a pull request.
