@@ -27,62 +27,25 @@ Make sure you have the following installed on your system:
 
 1. Clone the repository:
 
-   ```
+   ```sh
    git clone https://github.com/your-username/travel-list-app.git
    ```
 
 2. Navigate to the project directory:
 
-   ```
+   ```sh
    cd travel-list-app
    ```
 
 3. Install the dependencies:
-   ```
+   ```sh
    npm install
    ```
 
-### Running the App
+## Running the App
 
 Start the application with the following command:
 
-````
+```sh
 npm start
-
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-## Usage
-
-- **Create a New List**: Click on the "New List" button to start a new travel list.
-- **Add Items**: Use the "Add Item" button to include new items to your list.
-- **Customize Items**: Click on an item to edit its name, quantity, or category.
-- **Check Off Items**: Mark items as packed by clicking the checkbox next to each item.
-- **Delete Items**: Remove items by clicking the trash icon next to each item.
-
-## Contributing
-We welcome contributions! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch:
-    ```
-    git checkout -b feature/your-feature-name
-    ```
-3. Make your changes.
-4. Commit your changes:
-    ```
-    git commit -m 'Add some feature'
-    ```
-5. Push to the branch:
-    ```
-    git push origin feature/your-feature-name
-    ```
-6. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-If you have any questions or feedback, please reach out to us at [your-email@example.com](mailto:dx4336969@gmail.com).
-````
+```
